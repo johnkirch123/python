@@ -18,3 +18,9 @@ print(type(minutes_to_hours(70)))
 
 print(seconds_to_hours(4596))
 print(type(seconds_to_hours(70)))
+
+#28 functions and user input
+def age_foo(age):
+    new_age = float(age) + 50
+    return new_age
+print(age_foo(input("Enter your age: ")))
