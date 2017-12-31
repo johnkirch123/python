@@ -28,3 +28,9 @@ print(divide(1, 1))
 print(divide(1, "hat"))
 #print(divide(1, z)) still showing up as an error, not catching exception???
 print("End of Program")
+
+#error handling
+def div(a, b):
+    return a / b
+
+print(div(1,0))
